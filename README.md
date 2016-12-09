@@ -16,5 +16,5 @@ https://url-sng11.c9users.io/new/https://www.google.com
 ```
 ##Example Output:
 ```json
-{"original-url":"https://www.google.com", "short-url":"https://url-sng11.c9users.io/83842"}
+{"original-url":"https://www.google.com", "short-url":"https://url-sng11.c9users.io/36511"}
 ```

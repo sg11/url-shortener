@@ -5,7 +5,7 @@ module.exports = function(app,db){
         var url = req.url.slice(5);
         
         //check if URL requested is valid
-        if(validUrl.isWebUri(url)){
+        if(validUrl.isUri(url)){
             
             var num = generateLink();
             var newUrl = {"original-url": url, "short-url": process.env.APP_URL + num};
