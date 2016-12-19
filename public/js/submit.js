@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("#form").submit(function(e){
     e.preventDefault();
     var query = document.getElementById('longURL').value;
-    var url = 'https://url-sng11.c9users.io/new/' + query;
+    var url = 'http://sgurl.azurewebsites.net/new?url=' + query;
     $.getJSON(url, function(jsonp){
      var result = jsonp['short-url'];
      if (result) {
