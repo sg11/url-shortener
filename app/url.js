@@ -1,8 +1,8 @@
 var validUrl = require('valid-url');
 
 module.exports = function(app,db){
-    app.get('/new/:url*',function(req,res){
-        var url = req.url.slice(5);
+    app.get('/new',function(req,res){
+        var url = req.query.url;
         
         //check if URL requested is valid
         if(validUrl.isUri(url)){

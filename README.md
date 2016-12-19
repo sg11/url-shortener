@@ -12,9 +12,9 @@ Created by sg11
 
 ##Example Usage:
 ```url
-https://url-sng11.c9users.io/new/https://www.google.com
+http://sgurl.azurewebsites.net/new?url=https://www.google.com
 ```
 ##Example Output:
 ```json
-{"original-url":"https://www.google.com", "short-url":"https://url-sng11.c9users.io/36511"}
+{"original-url":"https://www.google.com","short-url":"http://sgurl.azurewebsites.net/7664"}
 ```
