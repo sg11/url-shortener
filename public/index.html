@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>URL Shortener Microservice</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/js/submit.js"></script>
+    
+    <div class="jumbotron">
+      <h1 class="primary text-center text-uppercase">URL Shortener</h1>
+    </div>
+    
+    <div class="container col-sm-6 url-container">
+        
+      <form class="form-inline text-center" id="form">
+         <input type="text" class="form-control url" id="longURL" placeholder="https://www.google.com">
+        <button type="submit" class="btn btn-success btn-default" id="submitBtn">Shorten it!</button>
+      </form>
+      
+    </div>
+    
+    <div class="container col-sm-offset-4 col-sm-4 text-center not-visible" id="result">
+    </div>
+</body>
+
+</html>
